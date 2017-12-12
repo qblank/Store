@@ -1,0 +1,132 @@
+*{margin:0;padding:0}
+div#top{
+    /*border:1px dashed #000000;*/
+    /*position: absolute;*/
+    position:relative;
+    width: 1366px;
+    height: 30px;
+    background-color: #F5F5F5;
+    text-align: center;
+}
+div#top .login{
+    margin-left: 360px;
+    width:150px;
+}
+div#top li{
+	height:30px;
+    line-height: 30px;
+    margin-left: 30px;
+    float: left;
+    list-style: none;
+    font-size: 14px;
+}
+
+
+div#top li div{
+	height:30px;
+}
+div#top a{
+    text-decoration: none;
+    color: #666666;
+}
+
+div#top a:hover{
+    color: #C81623;
+}
+div#top a:link{
+    color: #666666;
+}
+div.pay{
+    display: none;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    left: 387px;
+    top:30px;
+    color:#666666;
+    /* background-color: #E3E4E5; */
+    background-color: white;
+    border:1px solid #DDDDDD;
+    border-top:0;
+    z-index:11;
+}
+
+div.pay .pay_submit{
+	width: 80px;
+	height: 30px;
+	margin-bottom:20px;
+	border-radius:5%;
+	border:0;
+	background-color: #85C360;
+	color:white;
+}
+
+div.pay .pay_weizi{
+    margin: auto;
+    width: 150px;
+    height: 30px;
+}
+/*去除number类型右边的上下图标*/
+div#top .pay input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none !important;
+    margin: 0;
+}
+ div.pay .input{
+     margin-top: 10px;
+     line-height: 25px;
+     color: #666666;
+    outline: none;
+ }
+ div.pay .pay_submit{
+    /*margin-left: 60px;*/
+     cursor: pointer;
+ }
+ 
+ /* 用户余额 */
+ .user_money{
+ 	z-index:12;
+ 	position: absolute;
+ 	width:200px;
+ 	height:100px;
+ 	background-color:pink;
+ 	left:745px;
+ 	top:30px;
+ 	color:#666666;
+ 	font-size:13px;
+ 	border:1px solid #DDDDDD;
+ 	border-top:0;
+ 	display:none;
+ }
+ 
+ /* 用户图片 */
+ .user_money .user_pic{
+ 	border-radius:100%;
+ 	float:left;
+ 	margin-top:10px;
+ 	margin-left:10px;
+ }
+ /* 金额 */
+  .user_money  span{
+  	color:#CD2F3B;
+  	font-size:17px;
+  	font-family: "Microsoft Yahei";
+  }
+  
+  #user{
+  	text-align:center;
+  	width: 60px;
+  }
+  
+  #user:hover{
+  	background-color: white;
+  }
+  #reCharge{
+  	text-align:center;
+  	width: 60px;
+  }
+  
+  #reCharge:hover{
+  	background-color: white;
+  }
+  

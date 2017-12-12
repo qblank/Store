@@ -1,0 +1,330 @@
+*{
+     padding: 0;
+     margin: 0;
+ }
+
+/*头部*/
+.header{
+    height: 30px;
+    /*background-color: red;*/
+    /*z-index: 1;*/
+}
+
+/*头部里面的菜单栏*/
+.header .menu{
+    height: 32px;
+    background-color: darkred;
+}
+
+
+
+/*logo栏*/
+.header .logo{
+    width: 1366px;
+    height: 30px;
+    /*background-color: indianred;*/
+    /*margin-bottom:10px;*/
+    font-family: "Microsoft Yahei";
+    font-weight: 700;
+    /*margin-top:70px;*/
+}
+
+
+
+
+/*内容导航*/
+.header .content_nav{
+    /*float: left;*/
+    list-style: none;
+    width: 790px;
+    height: 30px;
+    margin:0 auto;
+
+}
+
+/*内容导航文字*/
+.header .content_nav li{
+    float: left;
+    width: 100px;
+    margin-left:10px;
+}
+
+.header .content_nav li a{
+    text-decoration: none;
+    color: #785555;
+}
+
+.header .content_nav li a:hover{
+    color: #E01222;
+}
+
+/*中间内容*/
+.content{
+    width: 1249px;
+    height: 480px;
+    margin:0 auto;
+}
+
+
+
+
+/*各个模块*/
+.model{
+    margin:10px auto;
+    width: 1249px;
+    height: 305px;
+    border:1px solid red;
+    /*background-color: green;*/
+}
+/*左边的盒子*/
+.content .content_left{
+	position:relative;
+    float: left;
+    width: 190px;
+    height: 480px;
+    /*border:1px solid red;*/
+    text-align: center;
+    background-color: #6E6568;
+}
+
+/* 左边导航出现啊的盒子 */
+/* .content .leftFloat{
+	position:absolute;
+	width:300px;
+	height:480px;
+	background-color:green;
+	left:300px;
+	top:0;
+	border:1px solid red;
+	z-index: 20;
+} */
+
+/*ul*/
+.content .content_left .left_nav{
+    display: inline-block;
+    margin-top:30px;
+    list-style: none;
+
+}
+
+/*左边导航栏*/
+.content .content_left .left_nav li{
+    display: block;
+    width: 190px;
+    height: 70px;
+    line-height:70px;
+    text-decoration: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.content .content_left .left_nav li:hover{
+    background-color: #999395;
+}
+/*左边导航文字链接*/
+.content .content_left .left_nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: "Microsoft Yahei";
+}
+
+
+
+
+/*中间图片*/
+.content .pic_center{
+    float: left;
+    margin-left:10px;
+    width: 790px;
+    height: 340px;
+    /*background: url("../images/1.jpg") no-repeat;*/
+    overflow: hidden;
+}
+
+/*左边的图片*/
+.content .img_left{
+    margin-top:1px;
+    margin-left:10px;
+}
+/*右边的图片*/
+.content .img_right{
+    margin-top:5px;
+    margin-left:1px;
+}
+
+/*右边的内容*/
+.content_right{
+	line-height:3;
+	font-size:17px;
+    width: 200px;
+    height: 400px;
+    float: right;
+    margin-top:20px;
+    text-align: center;
+    margin-right:30px;
+    color: #666666;
+}
+/* 促销的内容 */
+.content_right .sell{
+	width:200px;
+	height:auto;
+	display:block;
+}
+
+/* 公告的内容 */
+.content_right .inform{
+	width:200px;
+	height:auto;
+	display:none;
+}
+
+.content_right div .show{
+	display:block;
+}
+
+.content_right div .show{
+	display:none;
+}
+
+/* 右边公告栏 */
+.content_right .right_title{
+	line-height:1;
+	color:#E6E6E6;
+	height:25px;
+	border-top:1px solid #E6E6E6;
+	border-bottom:1px solid #E6E6E6;
+	
+}
+
+/* 文字 */
+.content_right .right_title a{
+	line-height:25px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.content_right .right_title a:hover{
+	border-bottom:2px solid #DB192B;
+}
+
+
+/*右边的ul*/
+.content_right ul{
+    list-style: none;
+}
+
+/*右边的超链接*/
+.content_right ul li a{
+    text-decoration: none;
+    font-family: "Microsoft Yahei";
+    color: #666666;
+    line-height: 30px;
+}
+/*超链接变红*/
+.content_right ul li a:hover{
+    color: red;
+}
+
+/*模块1标题导航*/
+.model .pro_nav{
+	
+    height: 55px;
+    background-color: #E01222;
+}
+
+.model .pro_nav span{
+    color: white;
+    font-family: "Microsoft Yahei";
+}
+
+/*吃货模块标题文字*/
+.model .pro_nav .des_title{
+    font-size:30px;
+    line-height:55px;
+   /*  margin-top:50px; */
+    padding-left:50px;
+}
+
+/*吃货模块内容*/
+.model .pro_content ul{
+    /*width: 1260px;*/
+    height: 225px;
+    /*border:1px solid red;*/
+}
+
+/*初始化ul*/
+.model .pro_content  ul{
+    margin-top:10px;
+    text-align: center;
+    list-style: none;
+}
+
+/*列出所有的类*/
+.model .pros_content  ul li{
+    margin-top:10px;
+    margin-left:15px;
+    display: inline-block;
+    text-align: center;
+    width: 180px;
+    height: 205px;
+    /*border:1px solid orange;*/
+}
+
+/*改变字体*/
+.model .pros_content  ul li a{
+    text-decoration: none;
+    /*color: #999999;*/
+    color: #EDC03F;
+    font-size:25px;
+}
+
+/*类别的文字描述*/
+.model .pros_content  ul li a .des_word{
+    font-size:16px;
+    color: #B77D66;
+}
+
+/*左边列表*/
+.left_list{
+    width: 34px;
+    height: 370px;
+    background-color: #918888;
+    position: fixed;
+    left: 10px;
+    top:95px;
+}
+
+.left_list ul li{
+    font-family: "Microsoft Yahei";
+    text-align: center;
+    /*line-height: 40px;*/
+}
+
+.left_list ul li a{
+    padding-top:12px;
+    text-decoration: none;
+    color: #FEFEFE;
+    display: block;
+    cursor: pointer;
+    height: 40px;
+    font-size:10px;
+    border-bottom:1px solid #B1AAAA;
+}
+
+.left_list ul li a:hover{
+    background-color: #E01222;
+}
+
+/* 设置图片 */
+#pro_imgs{
+	margin-top:20px;
+	width:140px;
+	height:170px;
+}
+
+/*底部*/
+.footer{
+    height: 201px;
+    background-color: red;
+}

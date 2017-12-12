@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/*头部*/
+.top{
+    height: 130px;
+    /*background-color: red;*/
+}
+
+/*大容器*/
+.container{
+    width: 1300px;
+    height: 1000px;
+    /*background-color: pink;*/
+}
+
+.container div{
+    margin:0 auto;
+}
+
+/*核对信息栏头部*/
+.container .check_header{
+    width: 990px;
+    height: 40px;
+    /*background-color: gold;*/
+    margin:0 auto;
+    color: #666666;
+    font: 20px/40px "Microsoft Yahei";
+}
+
+/*核对信息栏*/
+.container .check_info{
+    width: 990px;
+    height: 750px;
+    /*background-color: green;*/
+    margin:0 auto;
+    border:1px solid #DDDDDD;
+}
+
+/*模块标题*/
+.container .check_info .check_title{
+    height: 40px;
+    width: 938px;
+    font: 700 16px/40px "Microsoft Yahei";
+    color: #8C3333;
+    padding-left:10px;
+    /*background-color: orange;*/
+}
+/*用户信息*/
+.container .check_info .user_info{
+    width: 938px;
+    height: 43px;
+    /*background-color: blue;*/
+    color: #666666;
+    line-height: 43px;
+    padding-left:10px;
+}
+
+/*支付方式*/
+.container .check_info .paymentList{
+    width: 938px;
+    height: 30px;
+    /*background-color: blue;*/
+    line-height:30px;
+    padding-left:10px;
+    color: #666666;
+}
+
+/*商品信息*/
+.container .check_info .pro_list{
+    float: left;
+    width: 948px;
+    height: 80px;
+    border-bottom:1px solid #DDDDDD;
+    /*background-color: red;*/
+}
+
+/*.container .check_info .pro_list ul{
+    float: left;
+}*/
+
+/*商品信息属性*/
+.container .check_info .pro_list ul li{
+    float: left;
+    width: 180px;
+    text-align: center;
+    /*line-height:80px;*/
+    color: #666666;
+}
+
+
+/*商品概要*/
+.container .check_info .pro_summary{
+    float: right;
+    width: 990px;
+    height: 81px;
+    color: #666666;
+    text-align: right;
+    /*background-color: #333;*/
+}
+
+.container .check_info .pro_summary .pro_price_num{
+    font-size:18px;
+    color: #E4393C;
+}
+
+/*分页*/
+.container .check_info .page ul{
+    margin: 0 auto;
+    width: 560px;
+    list-style: none;
+    text-align: center;
+}
+
+.container .check_info .page ul li{
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-right:20px;
+    margin-top:20px;
+    cursor: pointer;
+    line-height: 30px;
+    color: #873369;
+    background-color: #F6F6F6;
+    border: 1px solid #DDDDDD;
+    font-weight: 700;
+    font-family:"Microsoft Yahei";
+}
+
+/*上下页*/
+.container .check_info .page ul .pg{
+    width: 56px;
+    height: 30px;
+    line-height: 30px;
+}
+
+/*提交订单*/
+.container .check_info .btn_commit {
+    float: right;
+    width: 100px;
+    height: 40px;
+    margin-right:10px;
+    /*background-color: red;*/
+}
+
+.container .check_info .btn_commit .btn_sub{
+    color: white;
+    width: 100px;
+    height: 40px;
+    font:700 18px/40px "Microsoft Yahei";
+    border-radius: 5%;
+    background-color: #E4393C;
+    border:0;
+    cursor: pointer;
+}
+

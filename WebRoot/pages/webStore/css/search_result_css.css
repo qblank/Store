@@ -1,0 +1,143 @@
+*{margin:0;padding:0}
+div#middle a{
+    text-decoration: none;
+
+}
+div#top{
+    background-color: #90bcff;
+    width: 1366px;
+    
+}
+div#middle{
+    margin-top: 20px;
+    /*background-color: #7cb609;*/
+    margin-bottom: 100px;
+    width: 1366px;
+    height: 580px;
+
+}
+div#middle .left{
+    /*background-color: #0099cc;*/
+    margin-top: 30px;
+    border: 1px solid #bbbbbb;
+    width: 250px;
+    height: 580px;
+    float: left;
+    margin-left: 215px;
+}
+div#middle .left .picture_one{
+    /*border: 1px dashed red;*/
+    margin-left: 25px;
+    margin-top: 13px;
+    width: 200px;
+    height: 180px;
+}
+div#middle .left .picture_one .one{
+    margin-left: 25px;
+
+}
+div#middle .left .left_top{
+    margin-top: -30px;
+    width: 252px;
+    height: 29px;
+    background-color: #bbbbbb;
+}
+div#middle .left .left_top_p{
+    margin-left: 25px;
+    line-height: 29px;
+    font-size: 25px;
+    color: #666666;
+}
+div#middle .left .picture_one .one .img{
+    width: 150px;
+    height: 120px;
+}
+div#middle .left .picture_one .two{
+    color: red;
+}
+div#middle .left .picture_one .three{
+    color:#666666;
+    margin-top: 7px;
+    line-height: 13px;
+    font-size: 13px;
+}
+div#middle .left .picture_two{
+    border: 1px dashed red;
+
+}
+div#middle .right{
+   /* background-color: whitesmoke;*/
+    width: 880px;
+    height: 610px;
+    float: left;
+    margin-left: 10px;
+
+}
+div#middle .right .right_top{
+    margin-top: 0px;
+    width: 880px;
+    height: 30px;
+    background-color: #F1F1F1;
+}
+div#middle .right .right_top li{
+	
+    line-height: 30px;
+    margin-left: 5px;
+    text-decoration: none;
+    list-style: none;
+    float: left;
+}
+div#middle .right .right_top .ts{
+    cursor: pointer;
+    background-color: white;
+    height: 20px;
+    margin-top: 3px;
+    margin-left: 10px;
+    background-color: #F1F1F1;
+    border: 1px solid #F1F1F1;
+}
+div#middle .right .picture_two{
+    margin-top: 20px;
+    float: left;
+    /*border: 1px dashed red;*/
+    width: 200px;
+    height: 230px;
+    margin-left: 12px;
+}
+div#middle .right .picture_two .one{
+    margin-left: 10px;
+    width: 180px;
+    height: 160px;
+}
+div#middle .right .picture_two .two{
+    color: red;
+    font-size: 20px;
+}
+div#middle .right .picture_two .three{
+    color: #666666;
+    margin-left: 8px;
+    font-size: 13px;
+    margin-top: 5px;
+}
+/*分页查询盒子*/
+div#middle .right .right_bottom{
+    width: 300px;
+    float: left;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 300px;
+
+}
+div#middle .right .right_bottom .page{
+    cursor: pointer;
+    text-decoration: none;
+    list-style: none;
+    float: left;
+    line-height: 35px;
+    margin-left: 10px;
+    color: #873369;
+    background-color: #F6F6F6;
+    /*border: 1px solid #DDDDDD;
+    opacity: 0.4;*/
+    border: none;
+}

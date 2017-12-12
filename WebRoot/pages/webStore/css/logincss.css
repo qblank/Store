@@ -1,0 +1,265 @@
+*{margin:0;padding:0}
+
+/*div{
+     border: 0px dashed #90bcff;
+ }*/
+.div1{
+    width: 1366px;
+    height: 100px;
+
+}
+.div2{
+    margin-top: 10px;
+    margin-left: 200px;
+    float: left;
+    width: 200px;
+   /* clear: left;*/
+}
+.div3{
+    margin-top: 25px;
+    /*margin-left: 10px;*/
+    width: 200px;
+    height: 50px;
+    float: left;
+}
+div.div1 hr{
+    width: 100%;
+}
+div.larger_map{
+	background: url(../images/login/2.png);
+	background-repeat: no-repeat;  
+  	background-size: 100% 100%;  
+	width: 1366px;
+	height: 500px;
+    /* margin-left: 50px; */
+    float: left;
+    z-index:1;
+}
+div.login{
+    background-color: white;
+    float: left;
+    width: 355px;
+    height: 400px;
+    margin-left: -550px;
+    margin-top: 50px;
+    z-index:2;
+}
+div.login_log{
+    margin-top: 15px;
+    height: 50px;
+}
+h3{
+    margin-left: 150px;
+    font-size:20px;
+    /*margin: 0 auto;*/
+}
+div.login_body{
+    height: 300px;
+
+}
+div.reg_middle a{
+    color: #B3B3B3;
+    font-size: 20px;
+}
+
+div.login_body_dw{
+   /* width: 100px;
+    height: 100px;*/
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.forget_password{
+    margin-left: 200px;
+    color: #666666;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.forget_password:hover{
+    color: #E4393C;
+}
+.login_submit{
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: #E4393C;
+    width: 200px;
+    height: 32px;
+    font-size:18px;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    border-radius: 5%;
+}
+div.login_reg{
+    height: 25px;
+}
+.reg{
+    font-size: 15px;
+    text-decoration: none;
+    margin-top: -50px;
+    margin-right: 10px;
+    color: #E4393C;
+    float: right;
+}
+
+
+/*注册页面css*/
+.reg_login a{
+    text-decoration:none;
+    font-size:15px;
+}
+div.reg_login{
+    float: right;
+    margin-right: 100px;
+    margin-top: 70px;
+
+}
+div.reg_middle{
+    margin-top: 50px;
+    margin-left: 350px;
+    width: 800px;
+    height: 600px;
+}
+div.reg_middle form .input_box{
+    width: 400px;
+    height: 45px;
+    margin-left: 200px;
+    margin-top: 20px;
+    border: 1px solid #90bcff;
+
+}
+div.reg_middle form .input_box .input_radio{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 50px;
+    line-height: 20px;
+
+}
+div.reg_middle form .input_box2{
+    width: 400px;
+    height: 45px;
+    margin-left: 200px;
+    margin-top: 20px;
+    border: 0px solid #90bcff;
+
+}
+div.reg_middle form .input_box3{
+    width: 400px;
+    height: 45px;
+    margin-left: 200px;
+    margin-top: 20px;
+    border: 0px solid #90bcff;
+
+}
+div.reg_middle form a{
+    margin-left: 10px;
+    line-height: 45px;
+
+}
+div.reg_middle form input{
+    font-size: 20px;
+    opacity: 0.54;
+    width: 220px;
+    height: 35px;
+    border:none;
+    outline: none;
+}
+div.reg_middle form .input_box2 .input_check{
+	
+    cursor: pointer;
+    line-height: 20px;
+    font-size: 15px;
+    margin-top: 4px;
+    width: 15px;
+    height: 15px;
+    border:none;
+    outline: none;
+    float: left;
+
+}
+div.reg_middle form .input_box2 .input_box_a{
+    float: left;
+    font-size: 15px;
+    line-height: 20px;
+    color: inherit;
+    text-decoration: none;
+
+}
+div.reg_middle form .input_box3 .input_submit{
+	
+    color: white;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 70px;
+    background-color: #EE2222;
+    opacity: 1;
+    /*border-radius: 5%;*/
+}
+
+
+
+/*****************************************************************/
+div.reg_middle form .input_box .pig_name{
+    float: right;
+    margin-top: 10px;
+   /* display: none;*/
+    display: none;
+    margin-left: 20px;
+}
+div.reg_middle form .input_box #aaa{
+    float: right;
+    margin-top: 10px;
+   /* display: none;*/
+    display: none;
+    margin-left: 20px;
+}
+div.reg_middle form .input_box .pig_password{
+    float: right;
+    margin-top: 10px;
+    /* display: none;*/
+    display: none;
+    margin-left: 20px;
+}
+div.reg_middle form .input_box .pig_passwords{
+    float: right;
+    margin-top: 10px;
+    /* display: none;*/
+    display: none;
+    margin-left: 20px;
+}
+div.reg_middle form .input_box .pig_radio{
+    float: right;
+    margin-top: 10px;
+    /* display: none;*/
+    display: none;
+    margin-left: 20px;
+}
+div.reg_middle form .input_box .pig_age{
+    float: right;
+    margin-top: 10px;
+    /* display: none;*/
+    display: none;
+    margin-left: 20px;
+}
+div.reg_middle form .input_box .pig_tel{
+    float: right;
+    margin-top: 10px;
+     /*
+     display: inherit;
+     */
+    display: none;
+    margin-left: 20px;
+}
+div.reg_middle form .input_box .pig_add{
+    float: right;
+    margin-top: 10px;
+     /*
+     display: inherit;
+     */
+    display: none;
+    margin-left: 20px;
+}
+

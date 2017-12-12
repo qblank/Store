@@ -1,0 +1,100 @@
+*{margin: 0;padding: 0;}
+
+#main ul{
+    list-style:none;
+    border:0;
+    width: 790px;
+    /*position: absolute;*/
+    /*left: auto;*/
+    overflow: hidden;
+}
+/*ul li{*/
+    /*float: left;*/
+/*}*/
+/*.box{*/
+    /*width: 790px;*/
+    /*height: 340px;*/
+    /*margin: 100px  auto;*/
+    /*padding: 20px auto;*/
+    /*!*background-color: greenyellow;*!*/
+    /*overflow: hidden;*/
+/*}*/
+#main{
+    width: 790px;
+    height: 340px;
+    /*margin: 0 auto;*/
+    /*padding: 10px auto;*/
+    /*margin-left:10px;*/
+    padding-left:10px;
+    /*background-color: greenyellow;*/
+    /*overflow: hidden;*/
+    position: relative;
+    overflow: hidden;
+}
+
+
+.pointList{
+    position: absolute;
+    height: 20px;
+    width: 184px;
+    /*line-height: 20px;*/
+    z-index: 1;
+    left: 300px;
+    bottom: 20px;
+    font-size: 0;
+    padding: 4px auto;
+    border-radius: 12px;
+    background-color: hsla(0,0%,100%,0.3);
+    display: block;
+}
+.pointer{
+    position: relative;
+    bottom: -4px;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 10px;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    left: 8px;
+    buttom:10px;
+    background-color: #fff;
+}
+#arr span{
+    width:30px;
+    height:60px;
+    position:absolute;
+    left: auto;
+    top:150px;
+    margin-top:-20px;
+    background:#000;
+    cursor:pointer;
+    line-height:60px;
+    text-align:center;
+    font-weight:bold;
+    font-family:'黑体';
+    font-size:30px;
+    color:#fff;
+    opacity:0;
+    /*border:0px solid #fff;*/
+}
+#right {
+    position: fixed;
+    background-color: deeppink;
+    left: auto;
+    right: 0;
+}
+#main li{
+    cursor: pointer;
+    /*float: left;*/
+}
+
+
+
+/*float:left;*/
+/*width:20px;*/
+/*height:20px;*/
+/*background:#fff;*/
+/*border:1px solid #ccc;*/
+/*margin-left:10px;*/
+/*cursor:pointer;*/

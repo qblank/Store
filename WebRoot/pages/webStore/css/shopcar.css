@@ -1,0 +1,283 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*顶部*/
+.top{
+    height: 130px;
+    /*background-color: red;*/
+}
+
+/*购物车的内容*/
+.content_car{
+    width: 1249px;
+    height: 800px;
+    /* height:auto; */
+    /*background-color: blue;*/
+    margin: 20px auto;
+}
+
+/*头部*/
+.content_car .header{
+    width: 990px;
+    height: 43px;
+    /*background-color: pink;*/
+    margin:0 auto;
+}
+
+/*商品描述*/
+.content_car .pro_des{
+    width: 990px;
+    height: 43px;
+    /*background-color: green;*/
+    margin:0 auto;
+}
+
+/*商品列表*/
+.content_car .item_list{
+    width: 990px;
+    height: auto;
+    /*background-color: #333;*/
+    margin:0 auto;
+}
+
+
+/*商品字段*/
+.content_car .pro_des ul{
+    width: 990px;
+    height: 43px;
+    list-style: none;
+    /*text-align: center;*/
+}
+
+/*商品各个字段*/
+.content_car .pro_des ul li span{
+    float: left;
+    width: 97px;
+    height: 43px;
+    line-height: 43px;
+}
+
+.content_car .pro_des ul li .pro_des{
+    width: 490px;
+}
+
+/*各个商品*/
+.content_car .item_list .pro{
+    float: left;
+    width: 988px;
+    height: 119px;
+    border:1px solid #C5C5C5;
+    /*border-right:1px solid #C5C5C5;;*/
+    /*background-color: yellow;*/
+}
+
+/*全部商品标题*/
+.content_car .header .all_pro{
+    font: 700  20px/43px "Microsoft Yahei";
+    color: #E4393C;
+}
+
+
+/*商品详细信息*/
+.content_car .item_list .pro ul{
+    text-align: center;
+    list-style: none;
+    height: 120px;
+}
+/*商品全部*/
+.content_car .item_list .pro ul li{
+    float: left;
+    /*line-height:43px;*/
+    width: 105px;
+    line-height:121px;
+    color: #4C338C;
+}
+/*商品图片*/
+.content_car .item_list .pro ul li .pro_img{
+    padding-top:10px;
+}
+
+/*商品描述*/
+.content_car .item_list .pro ul .pro_des_des{
+    line-height: 40px;
+    width: 330px;
+    color: #8C336C;
+}
+
+
+
+/*数量*/
+.content_car .item_list .pro ul li .pro_num{
+    width: 35px;
+}
+
+/* 减小 */
+#left{
+	display:inline-block;
+	cursor: pointer;
+	color:orange;
+}
+
+/* 增加 */
+#right{
+	display:inline-block;
+	cursor: pointer;
+	color:orange;
+}
+
+/*删除操作*/
+.content_car .item_list .pro ul li .del_pro{
+    text-decoration: none;
+    color: #777;
+}
+
+.content_car .item_list .pro ul li .del_pro:hover{
+    color: #E4393C;
+}
+
+.content_car .item_list .pro ul li .pro_des_des{
+    width: 200px;
+}
+
+/*分页框*/
+.content_car .item_list .page{
+    height: 100px;
+    width: 990px;
+	text-align:center;
+}
+.content_car .item_list .page ul{
+    margin: 0 auto;
+    width: 210px;
+    list-style: none;
+    /* margin-left:200px; */
+}
+
+.content_car .item_list .page ul li{
+
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-right:20px;
+    margin-top:20px;
+    /* margin: 0 auto; */
+    cursor: pointer;
+    line-height: 30px;
+    color: #873369;
+    background-color: #F6F6F6;
+    border: 1px solid #DDDDDD;
+    font-weight: 700;
+    font-family:"Microsoft Yahei";
+}
+
+.content_car .item_list .page ul li:hover{
+	border:1px solid #873369;
+	color: #F10214;
+}
+
+
+
+.content_car .item_list .page ul li a{
+	color:#873369;
+	text-decoration: none;
+}
+
+
+
+.current{
+	background-color: white;
+	color:red;
+}
+
+
+/*上下页*/
+.content_car .item_list .page ul .pg{
+    width: 56px;
+    height: 30px;
+    line-height: 30px;
+}
+
+/*提交框*/
+.content_car .item_list .post_form{
+    width: 990px;
+    height: 70px;
+    /*background-color: deeppink;*/
+}
+
+/**/
+.content_car .item_list .post_form ul{
+    list-style: none;
+    width: 900px;
+    height: 70px;
+    float: right;
+    /*margin-right:10px;*/
+    /*padding-right:10px;*/
+    /*position: relative;*/
+}
+
+/*价格栏*/
+.content_car .item_list .post_form ul .price{
+    /*float: right;*/
+    text-align: right;
+    /*right: 120px;*/
+    /*bottom:20px;*/
+}
+
+
+
+.content_car .item_list .post_form ul li{
+    /*text-align: right;*/
+    float: right;
+    /*float: left;*/
+    height: 70px;
+    width: 390px;
+    color: #666666;
+    /*padding-right:10px;*/
+}
+
+/*删除所选商品*/
+.content_car .item_list .post_form ul li .pro_del{
+    float: left;
+    color: #666666;
+    text-decoration: none;
+    padding-left:20px;
+    line-height:70px;
+
+}
+.content_car .item_list .post_form ul li .pro_del:hover{
+    color: #E4393C;
+}
+/*总金额文字*/
+
+/*总金额*/
+.content_car .item_list .post_form ul li .total{
+    /*float: right;*/
+    color: #E4393C;
+    font-size: 20px;
+    line-height: 70px;
+    font-family: "Microsoft Yahei";
+}
+/*提交*/
+.content_car .item_list .post_form ul .post_it{
+    /*text-align: left;*/
+    width: 120px;
+}
+
+/*提交按钮*/
+.content_car .item_list .post_form ul .btn_form{
+    /*display: inline-block;*/
+    /*padding-top:10px;*/
+    margin-top:10px;
+    margin-right:10px;
+    margin-left:10px;
+    /*float: right;*/
+    width: 100px;
+    height: 52px;
+    cursor: pointer;
+    font: 700 20px "Microsoft Yahei";
+    color: white;
+    background-color: #E4393C;
+    border-radius: 5%;
+    border:0;
+}
